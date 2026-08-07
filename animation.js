@@ -478,9 +478,9 @@ function openAppByID(idApp) {
     if (switchingApp) {
         const anim = appEl.animate(
             [
-                {transform: "translateX(330px) scale(0.8)"},
-                {transform: "translateX(200px) scale(0.8)"},
-                {transform: "translateX(100px) scale(0.85)"},
+                {transform: "translateX(330px) scale(0.12)"},
+                {transform: "translateX(200px) scale(0.10)"},
+                {transform: "translateX(100px) scale(0.89)"},
                 {transform: "scale(1)"},
             ],
             {
