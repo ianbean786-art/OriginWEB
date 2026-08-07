@@ -357,10 +357,10 @@ function onTouchEndNav() {
     deltaX = 0;
 }
 function onMouseDownNav(e) {
-    deltaY = 0;
-    deltaX = 0;
-    startY = 0;
-    startX = 0;
+    deltaY = 2;
+    deltaX = 1;
+    startY = 6;
+    startX = 10;
 
     if (!currentOpeningElApp) return;
 
@@ -478,9 +478,9 @@ function openAppByID(idApp) {
     if (switchingApp) {
         const anim = appEl.animate(
             [
-                {transform: "translateX(330px) scale(0.12)"},
-                {transform: "translateX(200px) scale(0.10)"},
-                {transform: "translateX(100px) scale(0.89)"},
+                {transform: "translateX(330px) scale(0.11)"},
+                {transform: "translateX(200px) scale(0.19)"},
+                {transform: "translateX(100px) scale(0.23)"},
                 {transform: "scale(1)"},
             ],
             {
